@@ -14,6 +14,7 @@
 		B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECDA7166D08E000302441 /* BVAnimations.m */; };
 		B54ECDAC166D08F600302441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAB166D08F600302441 /* UIKit.framework */; };
 		B54ECDAE166D08FD00302441 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAD166D08FD00302441 /* QuartzCore.framework */; };
+		B54ECDF0166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECDEF166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		B54ECDA8166D08E000302441 /* BVAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVAnimations.h; sourceTree = "<group>"; };
 		B54ECDAB166D08F600302441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B54ECDAD166D08FD00302441 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B54ECDEE166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+bv_destinationViewController.h"; sourceTree = "<group>"; };
+		B54ECDEF166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+bv_destinationViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				B54ECD98166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.h */,
 				B54ECD8B166D069800302441 /* NSError+bv_errorWithMessage.h */,
 				B54ECD8C166D069800302441 /* NSError+bv_errorWithMessage.m */,
+				B54ECDEE166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.h */,
+				B54ECDEF166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				B54ECD91166D069F00302441 /* BVNoAnimationSegue.m in Sources */,
 				B54ECD99166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m in Sources */,
 				B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */,
+				B54ECDF0166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
