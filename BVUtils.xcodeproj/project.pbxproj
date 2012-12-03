@@ -11,6 +11,9 @@
 		B54ECD8D166D069800302441 /* NSError+bv_errorWithMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECD8C166D069800302441 /* NSError+bv_errorWithMessage.m */; };
 		B54ECD91166D069F00302441 /* BVNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECD90166D069E00302441 /* BVNoAnimationSegue.m */; };
 		B54ECD99166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECD97166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m */; };
+		B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECDA7166D08E000302441 /* BVAnimations.m */; };
+		B54ECDAC166D08F600302441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAB166D08F600302441 /* UIKit.framework */; };
+		B54ECDAE166D08FD00302441 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAD166D08FD00302441 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,10 @@
 		B54ECD93166D06AF00302441 /* BVUtils-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BVUtils-Prefix.pch"; sourceTree = "<group>"; };
 		B54ECD97166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+bv_moveObjectAtIndex.m"; sourceTree = "<group>"; };
 		B54ECD98166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+bv_moveObjectAtIndex.h"; sourceTree = "<group>"; };
+		B54ECDA7166D08E000302441 /* BVAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVAnimations.m; sourceTree = "<group>"; };
+		B54ECDA8166D08E000302441 /* BVAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVAnimations.h; sourceTree = "<group>"; };
+		B54ECDAB166D08F600302441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B54ECDAD166D08FD00302441 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54ECDAE166D08FD00302441 /* QuartzCore.framework in Frameworks */,
+				B54ECDAC166D08F600302441 /* UIKit.framework in Frameworks */,
 				B54ECD79166D063600302441 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +61,8 @@
 		B54ECD6A166D063600302441 = {
 			isa = PBXGroup;
 			children = (
+				B54ECDAD166D08FD00302441 /* QuartzCore.framework */,
+				B54ECDAB166D08F600302441 /* UIKit.framework */,
 				B54ECD92166D06A700302441 /* Other */,
 				B54ECD8E166D069E00302441 /* UI */,
 				B54ECD8A166D069800302441 /* Categories */,
@@ -90,6 +101,8 @@
 		B54ECD8E166D069E00302441 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B54ECDA7166D08E000302441 /* BVAnimations.m */,
+				B54ECDA8166D08E000302441 /* BVAnimations.h */,
 				B54ECD8F166D069E00302441 /* BVNoAnimationSegue.h */,
 				B54ECD90166D069E00302441 /* BVNoAnimationSegue.m */,
 			);
@@ -158,6 +171,7 @@
 				B54ECD8D166D069800302441 /* NSError+bv_errorWithMessage.m in Sources */,
 				B54ECD91166D069F00302441 /* BVNoAnimationSegue.m in Sources */,
 				B54ECD99166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m in Sources */,
+				B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
