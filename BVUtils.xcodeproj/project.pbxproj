@@ -61,8 +61,6 @@
 		B54ECD6A166D063600302441 = {
 			isa = PBXGroup;
 			children = (
-				B54ECDAD166D08FD00302441 /* QuartzCore.framework */,
-				B54ECDAB166D08F600302441 /* UIKit.framework */,
 				B54ECD92166D06A700302441 /* Other */,
 				B54ECD8E166D069E00302441 /* UI */,
 				B54ECD8A166D069800302441 /* Categories */,
@@ -82,6 +80,8 @@
 		B54ECD77166D063600302441 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B54ECDAD166D08FD00302441 /* QuartzCore.framework */,
+				B54ECDAB166D08F600302441 /* UIKit.framework */,
 				B54ECD78166D063600302441 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -231,7 +231,10 @@
 				DSTROOT = /tmp/BVUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BVUtils-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -243,7 +246,10 @@
 				DSTROOT = /tmp/BVUtils.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BVUtils-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
