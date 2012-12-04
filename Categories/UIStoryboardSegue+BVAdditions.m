@@ -1,14 +1,14 @@
 //
-//  UIStoryboardSegue+bv_destinationViewController.m
+//  UIStoryboardSegue+BVAdditions.m
 //  BVUtils
 //
 //  Created by Benjamin Clayton on 03/12/2012.
 //  Copyright (c) 2012 Calvium Ltd. All rights reserved.
 //
 
-#import "UIStoryboardSegue+bv_destinationViewController.h"
+#import "UIStoryboardSegue+BVAdditions.h"
 
-@implementation UIStoryboardSegue (bv_destinationViewController)
+@implementation UIStoryboardSegue (BVAdditions)
 
 -(id) bv_destinationViewController {
     UIViewController* root = [self destinationViewController];
