@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B528D507166E07A40079FC29 /* NSDictionary+BVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B528D506166E07A40079FC29 /* NSDictionary+BVAdditions.m */; };
 		B54ECD79166D063600302441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECD78166D063600302441 /* Foundation.framework */; };
 		B54ECD8D166D069800302441 /* NSError+bv_errorWithMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECD8C166D069800302441 /* NSError+bv_errorWithMessage.m */; };
 		B54ECD91166D069F00302441 /* BVNoAnimationSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECD90166D069E00302441 /* BVNoAnimationSegue.m */; };
@@ -30,6 +31,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B528D503166E05670079FC29 /* BVDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVDefines.h; sourceTree = "<group>"; };
+		B528D505166E07A40079FC29 /* NSDictionary+BVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BVAdditions.h"; sourceTree = "<group>"; };
+		B528D506166E07A40079FC29 /* NSDictionary+BVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BVAdditions.m"; sourceTree = "<group>"; };
 		B54ECD75166D063600302441 /* libBVUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBVUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54ECD78166D063600302441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B54ECD8B166D069800302441 /* NSError+bv_errorWithMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+bv_errorWithMessage.h"; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				B54ECD8C166D069800302441 /* NSError+bv_errorWithMessage.m */,
 				B54ECDEE166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.h */,
 				B54ECDEF166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m */,
+				B528D505166E07A40079FC29 /* NSDictionary+BVAdditions.h */,
+				B528D506166E07A40079FC29 /* NSDictionary+BVAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B54ECD93166D06AF00302441 /* BVUtils-Prefix.pch */,
+				B528D503166E05670079FC29 /* BVDefines.h */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -178,6 +185,7 @@
 				B54ECD99166D070C00302441 /* NSMutableArray+bv_moveObjectAtIndex.m in Sources */,
 				B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */,
 				B54ECDF0166D0BC000302441 /* UIStoryboardSegue+bv_destinationViewController.m in Sources */,
+				B528D507166E07A40079FC29 /* NSDictionary+BVAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
