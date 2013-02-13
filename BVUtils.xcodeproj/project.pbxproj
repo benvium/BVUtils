@@ -16,6 +16,7 @@
 		B54ECDAC166D08F600302441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAB166D08F600302441 /* UIKit.framework */; };
 		B54ECDAE166D08FD00302441 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54ECDAD166D08FD00302441 /* QuartzCore.framework */; };
 		B54ECDF0166D0BC000302441 /* UIStoryboardSegue+BVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ECDEF166D0BC000302441 /* UIStoryboardSegue+BVAdditions.m */; };
+		B5AAEB5516CBE03500E720B3 /* BVHidableSectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AAEB5416CBE03500E720B3 /* BVHidableSectionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		B54ECDAD166D08FD00302441 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B54ECDEE166D0BC000302441 /* UIStoryboardSegue+BVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboardSegue+BVAdditions.h"; sourceTree = "<group>"; };
 		B54ECDEF166D0BC000302441 /* UIStoryboardSegue+BVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboardSegue+BVAdditions.m"; sourceTree = "<group>"; };
+		B5AAEB5316CBE03500E720B3 /* BVHidableSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BVHidableSectionTableViewController.h; sourceTree = "<group>"; };
+		B5AAEB5416CBE03500E720B3 /* BVHidableSectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BVHidableSectionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B54ECD8E166D069E00302441 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				B5AAEB5316CBE03500E720B3 /* BVHidableSectionTableViewController.h */,
+				B5AAEB5416CBE03500E720B3 /* BVHidableSectionTableViewController.m */,
 				B54ECDA7166D08E000302441 /* BVAnimations.m */,
 				B54ECDA8166D08E000302441 /* BVAnimations.h */,
 				B54ECD8F166D069E00302441 /* BVNoAnimationSegue.h */,
@@ -186,6 +191,7 @@
 				B54ECDA9166D08E000302441 /* BVAnimations.m in Sources */,
 				B54ECDF0166D0BC000302441 /* UIStoryboardSegue+BVAdditions.m in Sources */,
 				B528D507166E07A40079FC29 /* NSDictionary+BVAdditions.m in Sources */,
+				B5AAEB5516CBE03500E720B3 /* BVHidableSectionTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
