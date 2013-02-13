@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Calvium Ltd. All rights reserved.
 //
 
-#import "CVTableViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface BVHidableSectionTableViewController : CVTableViewController
+@interface BVHidableSectionTableViewController : UITableViewController
 
 - (void) hideSection:(int) index;
 - (void) showSection:(int) index;
