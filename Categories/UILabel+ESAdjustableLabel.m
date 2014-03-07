@@ -30,7 +30,7 @@
   //// ---------------------------
   // First, reset some basic parameters  
   [self setNumberOfLines:0];
-  [self setLineBreakMode:UILineBreakModeWordWrap];
+  [self setLineBreakMode:NSLineBreakByWordWrapping];
   
   // If maxSize is set to CGSizeZero, then assume the max width
   // is the size of the device screen minus the default
@@ -79,7 +79,7 @@
     calculatedSizeWithCurrentFontSize = 
     [[self text] sizeWithFont:labelFont 
             constrainedToSize:unconstrainedSize 
-                lineBreakMode:UILineBreakModeWordWrap];
+                lineBreakMode:NSLineBreakByWordWrapping];
     // Reduce the temporary font size value
     fSize--;
   } while (calculatedSizeWithCurrentFontSize.height > maxSize.height);
